@@ -31,7 +31,7 @@ export default function LoginPage() {
         disabled={loading}
       >
         {loading && <LoadingSpinner />}
-        Auth0 ile Giriş Yap
+        Auth0 ile Giriş Yapın
       </button>
     </div>
   );
