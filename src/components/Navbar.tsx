@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between py-4 mb-8 border-b border-slate-300">
       <Link href="/">
-        <span className="font-bold text-xl text-blue-700">NextAuth Proje</span>
+        <span className="font-bold text-xl text-blue-700 ">Ana Sayfa</span>
       </Link>
       <div className="flex items-center gap-4">
         {session?.user ? (
